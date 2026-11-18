@@ -41,6 +41,7 @@ header,.mast{background:var(--dark);color:#fff8e9}
 .section-head h2{font:normal clamp(2.1rem,4vw,3.1rem)/1.1 var(--serif);letter-spacing:-.045em;margin:0}
 .section-head p{font-size:.81rem;margin:0;color:var(--muted)}
 .filters{display:flex;align-items:end;flex-wrap:wrap;gap:.75rem 1.1rem;margin:1.25rem 0}
+.filter-control{min-width:0;max-width:100%}
 .filters label{font-size:.8rem;font-weight:680}
 .filters select{display:block;max-width:100%;margin-top:.25rem;border:1px solid #80948c;border-radius:4px;background:#fffdf5;color:var(--text);padding:.5rem 1.9rem .5rem .65rem;font:normal .94rem var(--sans);min-height:41px}
 .saved-filter{display:flex;align-items:center;gap:.4rem;min-height:41px;cursor:pointer}
@@ -100,6 +101,7 @@ footer a{font-size:.87rem;font-weight:650}
 .search-control{flex:1 1 14rem;max-width:23rem}
 .search-control input{display:block;width:100%;padding:.48rem .65rem;min-height:41px;margin-top:.25rem;border:1px solid #80948c;border-radius:4px;background:#fffdf5;color:var(--text)}
 .episode{display:grid;grid-template-columns:minmax(7rem,.65fr) minmax(0,2.35fr);gap:.25rem 1.2rem;padding:.9rem 0;border-top:1px solid var(--rule)}
+.episode>div{min-width:0;overflow-wrap:anywhere}
 .episode time{font-variant-numeric:tabular-nums;font-size:.85rem;color:var(--muted)}
 .episode h3{font:normal clamp(1.22rem,2.2vw,1.5rem)/1.23 var(--serif);margin:0}
 .episode h3 a{text-decoration-thickness:1px}
@@ -107,7 +109,7 @@ footer a{font-size:.87rem;font-weight:650}
 .more{border:1px solid #85978c;padding:.4rem .7rem;margin:.4rem 0}
 .sources h3{font-size:.92rem;color:var(--ink);margin:1rem 0 .1rem}
 [hidden]{display:none!important}
-@media(max-width:580px){.search-control{flex-basis:100%;max-width:unset}.episode{grid-template-columns:1fr}.episode time{font-size:.76rem}.main-body{padding-top:1rem}}
+@media(max-width:580px){#catch-up .filter-control{width:100%}#episode-feed{width:100%}.search-control{flex-basis:100%;max-width:unset}.episode{grid-template-columns:1fr}.episode time{font-size:.76rem}.main-body{padding-top:1rem}}
 .archive{margin:.6rem 0 1.35rem;padding:.9rem 1.05rem;background:#e9eee2;border-left:3px solid #527761}
 .archive h3{font:650 .84rem var(--sans);margin:0 0 .3rem}
 .archive article{margin:.55rem 0}

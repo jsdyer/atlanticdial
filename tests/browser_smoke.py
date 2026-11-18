@@ -69,8 +69,11 @@ def check_atlantic_dial(browser, url, screenshots):
         assert page.locator(".episode").count() == min(20, count)
     assert "CHMA" in page.locator(".episode .place").first.inner_text()
     assert page.locator(".episode h3 a").first.get_attribute("href").startswith("https://")
-    assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
     page.screenshot(path=str(screenshots / "on-demand-mobile.png"))
+    overflow = page.evaluate("""Array.from(document.querySelectorAll('body *'))
+      .filter(el => el.getBoundingClientRect().right > innerWidth + 1)
+      .map(el => [el.tagName, el.id, el.className, el.getBoundingClientRect().width])""")
+    assert page.evaluate("document.documentElement.scrollWidth <= innerWidth"), overflow
     page.reload()
     assert page.locator("#catch-up").is_visible()
     assert not page.locator("#listings").is_visible()
