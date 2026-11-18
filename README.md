@@ -14,11 +14,11 @@ Search Nain for Labrador oral histories or Inuktitut lessons, then switch to On 
 
 ## Where the data comes from
 
-The locally maintained [broadcast schedule](web/schedule.json) has the station, community, home time zone, programme and published weekly airtimes. Every listing links to the station’s schedule or individual programme page. The review date records the last editorial check. Airings use regular schedules and can change for holidays and special broadcasts.
+The locally maintained [broadcast schedule](https://github.com/jsdyer/atlanticdial/blob/main/web/schedule.json) has the station, community, home time zone, programme and published weekly airtimes. Every listing links to the station’s schedule or individual programme page. The review date records the last editorial check. Airings use regular schedules and can change for holidays and special broadcasts.
 
-The [episode sources](scripts/episode_feeds.json) are broadcaster-published RSS feeds for CHMA News (Sackville), MOVE Mornings (Halifax) and VOCM Open Line (St. John’s). A daily import selects up to 15 published audio episodes per feed, deduplicates publisher links and orders them by publication time. Individual dates come from the feed and appear in that programme’s time zone. The index links to publisher pages. The audio plays there. Search covers titles, programme names, stations and places. The two archive selections are hand-picked and keep their original dates.
+The [episode sources](https://github.com/jsdyer/atlanticdial/blob/main/scripts/episode_feeds.json) are broadcaster-published RSS feeds for CHMA News (Sackville), MOVE Mornings (Halifax) and VOCM Open Line (St. John’s). A daily import selects up to 15 published audio episodes per feed, deduplicates publisher links and orders them by publication time. Individual dates come from the feed and appear in that programme’s time zone. The index links to publisher pages. The audio plays there. Search covers titles, programme names, stations and places. The two archive selections are hand-picked and keep their original dates.
 
-The broadcast schedule and [episode index](web/episodes.json) are served as static JSON alongside the app. Searches run on this device. Saved programmes and the preferred time zone use the same browser storage key as the original CoolCode guide, so existing favourites carry over at its public address.
+The broadcast schedule and [episode index](https://coolcode.ca/atlanticdial/episodes.json) are served as static JSON alongside the app. Searches run on this device. Saved programmes and the preferred time zone use the same browser storage key as the original CoolCode guide, so existing favourites carry over at its public address.
 
 ## Maintaining this repo
 

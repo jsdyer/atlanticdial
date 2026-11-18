@@ -1,6 +1,7 @@
 """Exercise the local radio guide at a project subpath in Chromium."""
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+import json
 from pathlib import Path
 import shutil
 import tempfile
@@ -60,9 +61,12 @@ def check_atlantic_dial(browser, url, screenshots):
     assert page.locator("#episode-list").get_by_text("No matching episodes", exact=False).is_visible()
     page.get_by_label("Find an episode").fill("")
     page.get_by_label("Programme", exact=True).select_option("chma-news")
-    assert page.locator(".episode").count() == 8
-    page.get_by_role("button", name="Show more episodes").click()
-    assert page.locator(".episode").count() > 8
+    episode_file = json.loads((ROOT / "dist/episodes.json").read_text())
+    count = sum(row["feed"] == "chma-news" for row in episode_file["episodes"])
+    assert page.locator(".episode").count() == min(8, count)
+    if count > 8:
+        page.get_by_role("button", name="Show more episodes").click()
+        assert page.locator(".episode").count() == min(20, count)
     assert "CHMA" in page.locator(".episode .place").first.inner_text()
     assert page.locator(".episode h3 a").first.get_attribute("href").startswith("https://")
     assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")

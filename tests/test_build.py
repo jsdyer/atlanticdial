@@ -33,6 +33,7 @@ class BuildTests(unittest.TestCase):
         self.assertIn('href="./dial.css"', page)
         self.assertFalse((self.root / "dist/private.txt").exists())
         self.assertTrue((self.root / "dist/.nojekyll").exists())
+        self.assertEqual((self.root / "dist/README.md").read_bytes(), (self.root / "README.md").read_bytes())
 
     def test_url_matches_tool_id(self):
         self.edit(url="/different/")

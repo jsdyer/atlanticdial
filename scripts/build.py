@@ -68,6 +68,7 @@ def build(root=ROOT):
         if re.search(r"\{\{[A-Z_]+\}\}", page):
             raise ValueError("Unresolved template placeholder in web/index.html")
         index.write_text(page, encoding="utf-8")
+        shutil.copyfile(root / "README.md", stage / "README.md")
         (stage / ".nojekyll").touch()
         if output.exists():
             shutil.rmtree(output)
