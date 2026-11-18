@@ -1,16 +1,64 @@
 {
-  "id": "coolcode-tool-template",
-  "title": "CoolCode Tool Starter",
-  "description": "A browser-only example that trims lines and removes exact duplicates.",
-  "category": "security",
-  "tags": ["text", "lines", "duplicates"],
-  "icon": "scan-search",
-  "url": "/coolcode-tool-template/",
-  "source": "https://github.com/jsdyer/coolcode-tool-template",
+  "id": "atlanticdial",
+  "title": "Atlantic Dial",
+  "description": "Find Atlantic Canadian radio shows on your clock and listen to recent episodes from local stations.",
+  "category": "media",
+  "tags": [
+    "radio",
+    "Atlantic Canada",
+    "Maritimes",
+    "Halifax",
+    "Cape Breton",
+    "New Brunswick",
+    "Prince Edward Island",
+    "Newfoundland",
+    "Acadian",
+    "kitchen party",
+    "music",
+    "interviews",
+    "Labrador",
+    "Inuktitut",
+    "podcasts",
+    "on demand"
+  ],
+  "icon": "radio-tower",
+  "url": "/atlanticdial/",
+  "source": "https://github.com/jsdyer/atlanticdial",
   "hosting": "project",
   "access": "browser",
   "data_info": {
-    "mode": "local",
-    "detail": "The browser reads the text you paste and compares its lines."
+    "mode": "mixed",
+    "detail": "Stations publish the broadcast times and episode feeds. Choose your time zone or search recent recordings by title.",
+    "cadence": "Daily episode imports and weekly schedule checks",
+    "probes": [
+      {
+        "label": "Schedules reviewed",
+        "url": "https://coolcode.ca/atlanticdial/schedule.json",
+        "path": [
+          "reviewed"
+        ],
+        "count_at": {
+          "path": [
+            "shows"
+          ],
+          "measure": "length",
+          "unit": "programmes"
+        }
+      },
+      {
+        "label": "Episode feeds retrieved",
+        "url": "https://coolcode.ca/atlanticdial/episodes.json",
+        "path": [
+          "retrieved"
+        ],
+        "count_at": {
+          "path": [
+            "episodes"
+          ],
+          "measure": "length",
+          "unit": "episodes"
+        }
+      }
+    ]
   }
 }

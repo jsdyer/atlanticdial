@@ -1,0 +1,29 @@
+[
+  {
+    "id": "chma-news",
+    "title": "CHMA News",
+    "station": "CHMA",
+    "place": "Sackville, NB",
+    "zone": "America/Moncton",
+    "page": "https://www.chmafm.com/welcome/chma-news/",
+    "rss": "https://rss.autopod.xyz/show/519.rss"
+  },
+  {
+    "id": "move-mornings",
+    "title": "MOVE Mornings with Erin and Peter",
+    "station": "MOVE 100.1",
+    "place": "Halifax, NS",
+    "zone": "America/Halifax",
+    "page": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites",
+    "rss": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/playlists/podcast.rss"
+  },
+  {
+    "id": "open-line",
+    "title": "Open Line",
+    "station": "VOCM",
+    "place": "St. John’s, NL",
+    "zone": "America/St_Johns",
+    "page": "https://stingraypodcasts.com/open-line/",
+    "rss": "https://www.omnycontent.com/d/playlist/f26597bc-e96c-45b7-9b72-aebd00e4e1c7/d787f5fe-c948-4661-9b34-b100014bfea1/cc35be5e-b545-4249-9157-b100014c4ff8/podcast.rss"
+  }
+]
