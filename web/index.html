@@ -1,33 +1,58 @@
 <!doctype html>
-<html lang="en-CA">
+<html lang="en-CA" data-tool="{{TOOL_ID}}">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123738">
   <meta name="description" content="{{DESCRIPTION}}">
   <title>{{TITLE}} · CoolCode</title>
-  <link rel="stylesheet" href="./style.css">
-  <script type="module" src="./app.mjs"></script>
+  <link rel="icon" href="https://coolcode.ca/favicon.svg"><link rel="stylesheet" href="./dial.css">
+  <script type="module" src="app.mjs"></script>
 </head>
-<body data-tool-id="{{TOOL_ID}}">
-  <a class="skip" href="#main">Skip to content</a>
-  <header><a href="https://coolcode.ca/">← CoolCode.ca</a><a href="{{SOURCE_URL}}">Source &amp; instructions ↗</a></header>
-  <main id="main">
-    <p class="eyebrow">Browser tool starter</p>
-    <h1>{{TITLE}}</h1>
-    <p class="intro">{{DESCRIPTION}}</p>
-    <section aria-labelledby="example-title">
-      <h2 id="example-title">Clean a list</h2>
-      <p>Trim spaces, skip blank lines and remove exact duplicates. Capitalization stays distinct.</p>
-      <div class="panels">
-        <div><label for="input">Your lines</label><textarea id="input" rows="10" maxlength="100000" spellcheck="false" placeholder="Paste one item per line"></textarea></div>
-        <div><label for="output">Cleaned lines</label><textarea id="output" rows="10" readonly spellcheck="false"></textarea></div>
-      </div>
-      <div class="actions"><button id="sample" type="button">Load example</button><button id="clear" type="button">Clear</button><button id="copy" type="button" hidden>Copy result</button></div>
-      <p id="status" role="status" aria-live="polite">Paste a list to begin.</p>
-      <noscript><p>This tool needs JavaScript to process your text. The source is available above.</p></noscript>
-    </section>
-    <aside aria-label="Privacy"><strong>Stays on your device.</strong> This example makes no API requests and does not save your text. Reloading clears it.</aside>
-  </main>
-  <footer>Part of <a href="https://coolcode.ca/">the CoolCode collection</a>.</footer>
-</body>
-</html>
+<body>
+<a class="skip" href="#listings">Skip to the schedule</a>
+<header><div class="wrap nav"><a href="https://coolcode.ca/#media" class="brand">CoolCode<span>.ca</span></a><a href="#sources">Stations &amp; sources ↓</a></div></header>
+<main>
+  <section class="mast" aria-labelledby="title"><div class="wrap mast-grid">
+    <div><h1 id="title">Atlantic Dial<span>.</span></h1><p class="deck">Find a show back home, tune in on your clock, or catch the latest episode from the station.</p></div>
+    <div class="receiver" id="feature" aria-live="off"><p>Reading the station schedules…</p></div>
+  </div></section>
+  <div class="wrap main-body">
+    <nav class="views" aria-label="Browse the guide"><a href="#listings" aria-current="page">Broadcast schedule</a><a href="#catch-up">On demand</a></nav>
+    <section id="listings" aria-labelledby="schedule-title">
+    <div class="section-head"><h2 id="schedule-title">Programme guide</h2><p id="edition"></p></div>
+    <div class="filters">
+      <div class="filter-control search-control"><label for="show-search">Find a show or community</label><input type="search" id="show-search" placeholder="Try Nain or fiddle"></div>
+      <div class="filter-control"><label for="province">Province</label><select id="province"><option value="">All four provinces</option><option value="NS">Nova Scotia</option><option value="NB">New Brunswick</option><option value="PEI">Prince Edward Island</option><option value="NL">Newfoundland and Labrador</option></select></div>
+      <div class="filter-control"><label for="zone">Show times in</label><select id="zone"></select></div>
+      <label class="saved-filter"><input type="checkbox" id="saved"> Saved shows</label>
+    </div>
+    <div id="days" class="days" role="group" aria-label="Guide day"></div>
+    <p id="summary" class="list-summary" role="status"></p>
+    <div id="list" aria-labelledby="schedule-title"></div>
+    <noscript><p>Enable JavaScript to convert show times. The published schedules are available directly from the stations below.</p></noscript>
+  </section>
+  <section id="catch-up" aria-labelledby="episode-title">
+    <div class="section-head"><h2 id="episode-title">On demand</h2><p id="episode-edition"></p></div>
+    <p class="section-intro">Recent episodes and clips from the stations’ podcast feeds. Open an episode to listen with its publisher.</p>
+    <div class="filters">
+      <div class="filter-control search-control"><label for="episode-search">Find an episode</label><input id="episode-search" type="search" placeholder="Search titles, places or shows"></div>
+      <div class="filter-control"><label for="episode-feed">Programme</label><select id="episode-feed"><option value="">All programmes</option></select></div>
+    </div>
+    <p id="episode-summary" class="list-summary" role="status"></p>
+    <aside class="archive" id="archive-picks" aria-labelledby="archive-heading"><h3 id="archive-heading">From the archives · Halifax donairs</h3>
+      <article data-archive-entry><a href="https://creators.spotify.com/pod/profile/richard-julien/episodes/The-Great-Donair-Showdown-e3fl8sm">The Great Donair Showdown!!!</a><p>Corey “the Donair Beast” Good on the Halifax donair competition. The Backstage Kitchen Podcast · Feb 26, 2026 · 24 min.</p></article>
+      <article data-archive-entry><a href="https://podcasts.apple.com/ca/podcast/s4-the-halifax-donair/id1434339568?i=1000565731209">The Halifax Donair</a><p>How the donair and its sweet sauce became a Halifax tradition. CBC’s The Secret Life of Canada · Jun 9, 2022 · 27 min.</p></article>
+    </aside>
+    <div id="episode-list"></div>
+    <button id="more-episodes" type="button" class="quiet-button more" hidden>Show more episodes</button>
+    <noscript><p>Open the publisher links below to browse the latest episodes.</p></noscript>
+  </section>
+  <details id="sources" class="sources"><summary>Stations &amp; sources</summary>
+    <p>The guide follows selected programmes on the stations’ usual weekly schedules. Special broadcasts can change the lineup. Each player belongs to its station.</p>
+    <h3>Broadcast schedules</h3><ul>{{STATION_SOURCES}}</ul>
+    <h3>On-demand publishers</h3><ul>{{EPISODE_SOURCES}}</ul>
+    <p>Saved shows and your preferred time zone stay in this browser. <a href="{{SOURCE_URL}}#readme">Read the tool guide</a>.</p>
+  </details></div>
+</main>
+<footer><div class="wrap"><a href="https://coolcode.ca/#media">← CoolCode catalogue</a></div></footer>
+</body></html>

@@ -1,0 +1,19 @@
+name: Atlantic Dial · Check station schedules
+on:
+  schedule:
+    - cron: '17 15 * * 1'
+  push:
+    branches: [main]
+    paths: ['web/schedule.json', 'scripts/check_stations.py', '.github/workflows/station-schedules.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  station-schedules:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - run: python3 scripts/check_stations.py

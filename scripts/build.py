@@ -58,6 +58,13 @@ def build(root=ROOT):
             if placeholder not in page:
                 raise ValueError(f"Missing template placeholder: {placeholder}")
             page = page.replace(placeholder, escape(tool[key], quote=True))
+        schedule = json.loads((web / "schedule.json").read_text(encoding="utf-8"))
+        edition = json.loads((web / "episodes.json").read_text(encoding="utf-8"))
+        sources = [(s["source"], f'{s["name"]} · {s["town"]}, {s["province"]}') for s in schedule["stations"].values()]
+        feeds = [(s["page"], f'{s["title"]} · {s["place"]}') for s in edition["feeds"].values()]
+        for token, entries in [("STATION_SOURCES", sources), ("EPISODE_SOURCES", feeds)]:
+            links = "".join(f'<li><a href="{escape(url, quote=True)}">{escape(label)}</a></li>' for url, label in entries)
+            page = page.replace("{{" + token + "}}", links)
         if re.search(r"\{\{[A-Z_]+\}\}", page):
             raise ValueError("Unresolved template placeholder in web/index.html")
         index.write_text(page, encoding="utf-8")

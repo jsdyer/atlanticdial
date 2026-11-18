@@ -1,0 +1,47 @@
+name: Atlantic Dial · Refresh episode feeds
+
+on:
+  schedule:
+    - cron: '41 21 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/episode_feeds.json', 'scripts/refresh_episodes.py', '.github/workflows/episodes.yml']
+
+concurrency:
+  group: atlantic-dial-episode-refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Read all station podcast feeds
+        run: python3 scripts/refresh_episodes.py
+      - name: Validate the edition
+        run: |
+          python3 -m unittest discover -s tests
+          python3 scripts/build.py
+      - name: Save the complete index and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! git diff --quiet -- web/episodes.json; then
+            git add web/episodes.json
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Refresh published radio episodes"
+            git push origin HEAD:main
+            gh workflow run pages.yml --ref main
+          elif [ "${GITHUB_RUN_ATTEMPT}" -gt 1 ]; then
+            gh workflow run pages.yml --ref main
+          fi

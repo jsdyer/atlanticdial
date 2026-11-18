@@ -1,0 +1,595 @@
+{
+  "reviewed": "2026-11-18",
+  "stations": {
+    "seaside": {
+      "name": "Seaside FM",
+      "frequency": "105.9 FM",
+      "town": "Eastern Passage",
+      "province": "NS",
+      "zone": "America/Halifax",
+      "listen": "https://www.seasidefm.com/",
+      "source": "https://www.seasidefm.com/staff"
+    },
+    "ckjm": {
+      "name": "Radio CKJM",
+      "frequency": "106.1 FM",
+      "town": "Chéticamp",
+      "province": "NS",
+      "zone": "America/Halifax",
+      "listen": "https://www.ckjmfm.ca/en/listen/",
+      "source": "https://www.ckjmfm.ca/en/shows/"
+    },
+    "coast": {
+      "name": "The Coast",
+      "frequency": "89.7 FM",
+      "town": "Sydney",
+      "province": "NS",
+      "zone": "America/Halifax",
+      "listen": "https://coastalradio.ca/listenliveplayer/",
+      "source": "https://coastalradio.ca/schedule/"
+    },
+    "chma": {
+      "name": "CHMA",
+      "frequency": "106.9 FM",
+      "town": "Sackville",
+      "province": "NB",
+      "zone": "America/Moncton",
+      "listen": "https://www.chmafm.com/welcome/",
+      "source": "https://www.chmafm.com/welcome/chmamornings/"
+    },
+    "cfcy": {
+      "name": "CFCY",
+      "frequency": "95.1 FM",
+      "town": "Charlottetown",
+      "province": "PEI",
+      "zone": "America/Halifax",
+      "listen": "https://player.cfcy.fm/",
+      "source": "https://cfcy.fm/on-air/saturday-night-hoedown/"
+    },
+    "vocm": {
+      "name": "VOCM",
+      "frequency": "590 AM",
+      "town": "St. John’s",
+      "province": "NL",
+      "zone": "America/St_Johns",
+      "listen": "https://player.vocm.com/",
+      "source": "https://vocm.com/weekends-on-vocm/"
+    },
+    "vowr": {
+      "name": "VOWR",
+      "frequency": "800 AM",
+      "town": "St. John’s",
+      "province": "NL",
+      "zone": "America/St_Johns",
+      "listen": "https://vowr.ca/",
+      "source": "https://vowr.ca/programs/"
+    },
+    "ckro": {
+      "name": "CKRO",
+      "frequency": "97.1 FM",
+      "town": "Pokemouche",
+      "province": "NB",
+      "zone": "America/Moncton",
+      "listen": "https://ckro.ca/",
+      "source": "https://www.ckro.ca/programmation"
+    },
+    "ipe": {
+      "name": "Radio IPE",
+      "frequency": "Online",
+      "town": "Summerside",
+      "province": "PEI",
+      "zone": "America/Halifax",
+      "listen": "https://radioipe.ca/",
+      "source": "https://radioipe.ca/shows-et-balados/"
+    },
+    "ok": {
+      "name": "OKâlaKatiget Society",
+      "frequency": "99.9 FM",
+      "town": "Nain",
+      "province": "NL",
+      "zone": "America/Goose_Bay",
+      "listen": "https://oksocietyradio.com/",
+      "source": "https://oksocietyradio.com/"
+    }
+  },
+  "shows": [
+    {
+      "id": "songbook",
+      "station": "seaside",
+      "title": "Cape Breton Songbook",
+      "description": "A Tuesday hour with Dan Briand on Halifax Harbour’s Eastern Passage station.",
+      "slots": [
+        {
+          "days": [
+            2
+          ],
+          "start": "18:00",
+          "end": "19:00",
+          "sourceText": [
+            "Tuesdays 6:00pm - 7:00pm (Cape Breton Songbook)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "newfie-brew",
+      "station": "seaside",
+      "title": "Newfie Brew",
+      "description": "Jim Francis hosts a Monday evening broadcast from Eastern Passage.",
+      "slots": [
+        {
+          "days": [
+            1
+          ],
+          "start": "18:05",
+          "end": "20:00",
+          "sourceText": [
+            "6:05pm - 8:00pm Monday (Newfie Brew)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coup",
+      "station": "ckjm",
+      "title": "Le Coup d’Archet",
+      "description": "Claude Bourgeois plays fiddle tunes from Cape Breton and further afield.",
+      "slots": [
+        {
+          "days": [
+            1
+          ],
+          "start": "18:00",
+          "end": "19:00",
+          "sourceText": [
+            "6pm-7pm: Le Coup d’Archet"
+          ],
+          "daySection": true
+        }
+      ]
+    },
+    {
+      "id": "melodies",
+      "station": "ckjm",
+      "title": "Mélodies d’Acadie et d’ailleurs",
+      "description": "Daniel Aucoin shares songs from Acadie and beyond on Chéticamp’s French-language station.",
+      "slots": [
+        {
+          "days": [
+            2
+          ],
+          "start": "19:00",
+          "end": "20:00",
+          "sourceText": [
+            "7pm-8pm: Mélodies d’Acadie"
+          ],
+          "daySection": true
+        }
+      ]
+    },
+    {
+      "id": "autour",
+      "station": "ckjm",
+      "title": "Autour du feu",
+      "description": "Jessica LeBrun and her son Liam Aucoin host a midweek singalong from Chéticamp.",
+      "slots": [
+        {
+          "days": [
+            3
+          ],
+          "start": "19:00",
+          "end": "20:00",
+          "sourceText": [
+            "7pm-8pm: Autour du feu"
+          ],
+          "daySection": true
+        }
+      ]
+    },
+    {
+      "id": "meli",
+      "station": "ckjm",
+      "title": "Méli-Mélo du Platin",
+      "description": "Acadian musician Robert Harris devotes an hour to French-language music with an emphasis on local artists.",
+      "slots": [
+        {
+          "days": [
+            4
+          ],
+          "start": "18:00",
+          "end": "19:00",
+          "sourceText": [
+            "6pm-7pm: Méli-mélo with Robert Harris"
+          ],
+          "daySection": true
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "station": "coast",
+      "title": "Cape Breton Kitchen Party",
+      "description": "Ron Neville takes the late Saturday slot on Cape Breton’s community station.",
+      "slots": [
+        {
+          "days": [
+            6
+          ],
+          "start": "22:00",
+          "end": "00:00",
+          "sourceText": [
+            "Cape Breton Kitchen Party with Ron Neville 10:00 pm to 12:00 am"
+          ],
+          "daySection": true
+        }
+      ]
+    },
+    {
+      "id": "morning",
+      "station": "chma",
+      "title": "CHMA Morning Edition",
+      "description": "Start a weekday in Sackville with the morning crew at Mount Allison’s campus and community station.",
+      "slots": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "07:30",
+          "end": "09:30",
+          "sourceText": [
+            "CHMA Morning Edition",
+            "Weekdays 7:30am-9:30am"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hoedown",
+      "station": "cfcy",
+      "title": "Saturday Night Hoedown",
+      "description": "Islanders send in requests and dedications for a PEI radio tradition dating to 1958.",
+      "slots": [
+        {
+          "days": [
+            6
+          ],
+          "start": "18:00",
+          "end": "21:00",
+          "sourceText": [
+            "Saturday Night Hoedown",
+            "from 6-9pm"
+          ]
+        }
+      ],
+      "request": "https://cfcy.fm/on-air/saturday-night-hoedown/"
+    },
+    {
+      "id": "irish",
+      "station": "vocm",
+      "title": "The Irish Newfoundland Show",
+      "description": "Greg Smith hosts a Saturday morning of Irish and Newfoundland music on VOCM.",
+      "slots": [
+        {
+          "days": [
+            6
+          ],
+          "start": "07:00",
+          "end": "13:00",
+          "sourceText": [
+            "Irish Newfoundland Show 7:00am - 1:00pm | Saturdays"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cabin",
+      "station": "vocm",
+      "title": "The Cabin Party",
+      "description": "Brian O’Connell’s Saturday evening country show runs into Sunday morning in Newfoundland.",
+      "slots": [
+        {
+          "days": [
+            6
+          ],
+          "start": "19:00",
+          "end": "01:00",
+          "sourceText": [
+            "VOCM Cabin Party 7:00pm - 1:00am | Saturdays"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lunch",
+      "station": "vowr",
+      "title": "Lunch Break",
+      "description": "A weekday hour for Newfoundland and Labrador musicians, from established performers to new voices.",
+      "slots": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "13:00",
+          "end": "14:00",
+          "sourceText": [
+            "Lunch Break Weekdays | 1:00 PM – 2:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guest",
+      "station": "vowr",
+      "title": "Guest Inner View",
+      "description": "Newfoundlanders talk about their work and lives, with subjects ranging from the arts to the fishery.",
+      "slots": [
+        {
+          "days": [
+            4
+          ],
+          "start": "19:30",
+          "end": "20:00",
+          "sourceText": [
+            "Guest Inner View",
+            "Thursdays | 7:30 PM – 8:00 PM"
+          ]
+        },
+        {
+          "days": [
+            0
+          ],
+          "start": "14:00",
+          "end": "14:30",
+          "sourceText": [
+            "Guest Inner View Sundays | 2:00 PM – 2:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "centre-stage",
+      "station": "cfcy",
+      "title": "Maritime Centre Stage",
+      "description": "East Coast musicians talk about their work and share their recordings from the Island.",
+      "slots": [
+        {
+          "days": [
+            0
+          ],
+          "start": "19:00",
+          "end": "20:00",
+          "sourceText": [
+            "an hour",
+            "every Sunday night at 7 pm"
+          ]
+        }
+      ],
+      "source": "https://cfcy.fm/on-air/maritime-centre-stage/"
+    },
+    {
+      "id": "labrador-memories",
+      "station": "ok",
+      "title": "Labrador Memories",
+      "description": "Labradorians of different generations tell stories from their lives in English.",
+      "slots": [
+        {
+          "days": [
+            1
+          ],
+          "start": "15:00",
+          "end": "16:00",
+          "sourceText": [
+            "3:00 - 4:00 pm Labrador Memories"
+          ],
+          "daySection": true
+        }
+      ]
+    },
+    {
+      "id": "learning-together",
+      "station": "ok",
+      "title": "IlinniaKatigennik",
+      "description": "Learn Inuktitut through recipes, stories and language lessons from Nunatsiavut.",
+      "slots": [
+        {
+          "days": [
+            2
+          ],
+          "start": "15:00",
+          "end": "16:00",
+          "sourceText": [
+            "3:00 - 4:00 pm IlinniaKatigennik"
+          ],
+          "daySection": true
+        }
+      ]
+    },
+    {
+      "id": "sugusivut",
+      "station": "ok",
+      "title": "Sugusivut",
+      "description": "Hear music and recordings of children from communities in Nunatsiavut.",
+      "slots": [
+        {
+          "days": [
+            3
+          ],
+          "start": "15:00",
+          "end": "16:00",
+          "sourceText": [
+            "3:00 - 4:00 pm Sugusivut"
+          ],
+          "daySection": true
+        }
+      ]
+    },
+    {
+      "id": "ca-danse",
+      "station": "ckro",
+      "title": "Ça danse chez nous",
+      "description": "An hour of Acadian reels from the Acadian Peninsula.",
+      "slots": [
+        {
+          "days": [
+            1
+          ],
+          "start": "18:00",
+          "end": "19:00",
+          "sourceText": [
+            "18 h à 19 h Ça danse chez nous"
+          ],
+          "daySection": "fr"
+        }
+      ]
+    },
+    {
+      "id": "zone-celtique",
+      "station": "ckro",
+      "title": "Zone celtique",
+      "description": "A volunteer-produced Celtic music programme from Pokemouche.",
+      "slots": [
+        {
+          "days": [
+            1
+          ],
+          "start": "19:00",
+          "end": "20:00",
+          "sourceText": [
+            "19 h à 20 h Zone celtique"
+          ],
+          "daySection": "fr"
+        }
+      ]
+    },
+    {
+      "id": "country-show",
+      "station": "ckro",
+      "title": "Le country Show",
+      "description": "Steve Hickey plays Acadian and French-language country music.",
+      "slots": [
+        {
+          "days": [
+            3
+          ],
+          "start": "18:00",
+          "end": "20:00",
+          "sourceText": [
+            "18 h à 20 h Le country Show"
+          ],
+          "daySection": "fr"
+        }
+      ]
+    },
+    {
+      "id": "ca-fait",
+      "station": "ckro",
+      "title": "Ça fait du bien",
+      "description": "Monique Aubin brings together Bon appétit, regional sport and the cultural calendar.",
+      "slots": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "09:00",
+          "end": "13:00",
+          "sourceText": [
+            "9 h à 13 h Ça fait du bien"
+          ],
+          "daySection": "fr"
+        }
+      ]
+    },
+    {
+      "id": "haria",
+      "station": "ipe",
+      "title": "Le haria du matin",
+      "description": "Paul D. Gallant starts the weekday on PEI’s French-language community station.",
+      "slots": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "start": "07:00",
+          "end": "09:00",
+          "sourceText": [
+            "7h à 9h : Le haria du matin"
+          ],
+          "daySection": "fr"
+        }
+      ]
+    },
+    {
+      "id": "bois-sec",
+      "station": "ipe",
+      "title": "Pilez on le bois sec",
+      "description": "Albert Arsenault welcomes guests for an evening programme from Prince Edward Island.",
+      "slots": [
+        {
+          "days": [
+            1
+          ],
+          "start": "18:00",
+          "end": "19:00",
+          "sourceText": [
+            "18h à 19h : Pilez on le bois sec"
+          ],
+          "daySection": "fr"
+        }
+      ]
+    },
+    {
+      "id": "bon-rigodon",
+      "station": "ipe",
+      "title": "Le bon rigodon",
+      "description": "Natalie LeBlanc and Adrienne Gallant host a Saturday night on Radio IPE.",
+      "slots": [
+        {
+          "days": [
+            6
+          ],
+          "start": "19:00",
+          "end": "21:00",
+          "sourceText": [
+            "19h à 21h : Le bon rigodon"
+          ],
+          "daySection": "fr"
+        }
+      ]
+    },
+    {
+      "id": "punk-ei",
+      "station": "ipe",
+      "title": "Punk.E.I",
+      "description": "Discover Prince Edward Island’s independent music on Sunday night.",
+      "slots": [
+        {
+          "days": [
+            0
+          ],
+          "start": "21:00",
+          "end": "22:00",
+          "sourceText": [
+            "21h à 22h : Punk.E.I"
+          ],
+          "daySection": "fr"
+        }
+      ]
+    }
+  ]
+}

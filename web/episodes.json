@@ -1,0 +1,298 @@
+{
+  "retrieved": "2026-11-18",
+  "feeds": {
+    "chma-news": {
+      "title": "CHMA News",
+      "station": "CHMA",
+      "place": "Sackville, NB",
+      "zone": "America/Moncton",
+      "page": "https://www.chmafm.com/welcome/chma-news/"
+    },
+    "move-mornings": {
+      "title": "MOVE Mornings with Erin and Peter",
+      "station": "MOVE 100.1",
+      "place": "Halifax, NS",
+      "zone": "America/Halifax",
+      "page": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites"
+    },
+    "open-line": {
+      "title": "Open Line",
+      "station": "VOCM",
+      "place": "St. John’s, NL",
+      "zone": "America/St_Johns",
+      "page": "https://stingraypodcasts.com/open-line/"
+    }
+  },
+  "episodes": [
+    {
+      "feed": "open-line",
+      "title": "Wednesday Nov 18th",
+      "published": "2026-11-18T18:51:05Z",
+      "url": "https://www.spreaker.com/episode/wednesday-nov-18th--76452508"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVMEBER 18: Outrageous Bills, Tacos & Erin's Bad Morning",
+      "published": "2026-11-18T14:08:46Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-novmeber-18-outrageous-bills-tacos-erins-bad-morning"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "Love Tacos? This Popular Taco Spot Is Expanding Into Atlantic Canada For The Very First Time!",
+      "published": "2026-11-18T12:24:09Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/love-tacos-this-popular-taco-spot-is-expanding-into-atlantic-canada-for-the-very-first-time"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-18T09:00:00Z",
+      "url": "https://player.autopod.xyz/1553458"
+    },
+    {
+      "feed": "open-line",
+      "title": "Tuesday Nov 17th",
+      "published": "2026-11-17T17:18:32Z",
+      "url": "https://www.spreaker.com/episode/tuesday-nov-17th--76424088"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVEMBER 17: Numb Thumbs, McPizza & Why Your Kids Are Driving You Crazy",
+      "published": "2026-11-17T14:17:02Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-17-numb-thumbs-mcpizza-why-your-kids-are-driving-you-crazy"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "A Super Popular Mexican Restaurant Is Opening Their First Location In Halifax!",
+      "published": "2026-11-17T12:30:57Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/a-super-popular-mexican-restaurant-is-opening-their-1st-location-in-halifax"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-17T09:00:00Z",
+      "url": "https://player.autopod.xyz/1552164"
+    },
+    {
+      "feed": "open-line",
+      "title": "Monday Nov 16th",
+      "published": "2026-11-16T17:52:48Z",
+      "url": "https://www.spreaker.com/episode/monday-nov-16th--76405605"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVEMBER 16: Peter's Purchase Regret, Waiting In Line & More Mystery Mail",
+      "published": "2026-11-16T13:58:56Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-16-peters-purchase-regret-waiting-in-line-more-mystery-mail"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "Major Bridgerton Star Spotted In Halifax?! Here's What We Know!",
+      "published": "2026-11-16T12:31:17Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/major-bridgerton-star-spotted-in-halifax-heres-what-we-know"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-16T09:00:00Z",
+      "url": "https://player.autopod.xyz/1550862"
+    },
+    {
+      "feed": "open-line",
+      "title": "Friday Nov 13th",
+      "published": "2026-11-13T16:28:08Z",
+      "url": "https://www.spreaker.com/episode/friday-nov-13th--76340795"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVEMBER 13: Peter's Secret, Snow & Big Pickles",
+      "published": "2026-11-13T14:50:11Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-13-peters-secret-snow-big-pickles"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "Free Movies At Cineplex + Free Games At Playdium Tomorrow - Plus $3 Popcorn & Treats!",
+      "published": "2026-11-13T12:45:01Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/free-movies-at-cineplex-free-games-at-playdium-tomorrow-plus-3-popcorn-treats"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-13T09:00:00Z",
+      "url": "https://player.autopod.xyz/1546957"
+    },
+    {
+      "feed": "open-line",
+      "title": "Thursday Nov 12th",
+      "published": "2026-11-12T17:12:44Z",
+      "url": "https://www.spreaker.com/episode/thursday-nov-12th--76319590"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVEMBER 12: A Dobble, Sleeping With Socks & Spending Too Much On Trees",
+      "published": "2026-11-12T13:37:19Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-12-a-dobble-sleeping-with-socks-spending-too-much-on-trees"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "THE WAIT IS OVER: Join Us To Officially Wake Up Woody The Talking Christmas Tree!",
+      "published": "2026-11-12T11:47:41Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/the-wait-is-over-join-us-to-officially-wake-up-woody-the-talking-christmas-tree"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-12T09:00:00Z",
+      "url": "https://player.autopod.xyz/1545620"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVEMBER 11: Peter's Mystery Mail, You Can See Everything & Remembrance Day In Halifax",
+      "published": "2026-11-11T13:33:46Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-11-peters-mystery-mail-you-can-see-everything-remembrance-day-in-halifax"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "What's Open & Closed Today In HRM + The Sweetest Tribute By Local Seniors You'll Want To See",
+      "published": "2026-11-11T10:59:09Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/whats-open-closed-today-in-hrm-the-sweetest-tribute-by-local-seniors-youll-want-to-see"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-11T09:00:00Z",
+      "url": "https://player.autopod.xyz/1544296"
+    },
+    {
+      "feed": "open-line",
+      "title": "Tuesday Nov 10th",
+      "published": "2026-11-10T17:17:16Z",
+      "url": "https://www.spreaker.com/episode/tuesday-nov-10th--76287820"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVEMBER 10: What Makes You Tired & Cranky, Rankin Reunion & Problems In Your Life You Ignore",
+      "published": "2026-11-10T14:29:16Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-10-what-makes-you-tired-cranky-rankin-reunion-problems-in-your-life-you-ignore"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "The Rankins Back Together After 15 Years?!?! How You Can Win Tickets To See Them!",
+      "published": "2026-11-10T12:47:27Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/the-rankins-back-together-after-15-years-how-you-can-win-tickets-to-see-them"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-10T09:00:00Z",
+      "url": "https://player.autopod.xyz/1542976"
+    },
+    {
+      "feed": "open-line",
+      "title": "Monday Nov 9th",
+      "published": "2026-11-09T17:15:25Z",
+      "url": "https://www.spreaker.com/episode/monday-nov-9th--76269982"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVEMBER 9: Futuristic Tech, Sketchy Toys & Traffic In Halifax",
+      "published": "2026-11-09T13:51:38Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-9-futuristic-tech-sketchy-toys-traffic-in-halifax"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-09T09:00:00Z",
+      "url": "https://player.autopod.xyz/1541631"
+    },
+    {
+      "feed": "open-line",
+      "title": "Friday Nov 6th",
+      "published": "2026-11-06T17:05:32Z",
+      "url": "https://www.spreaker.com/episode/friday-nov-6th--76214717"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-06T09:00:00Z",
+      "url": "https://player.autopod.xyz/1537685"
+    },
+    {
+      "feed": "open-line",
+      "title": "Thursday Nov 5th",
+      "published": "2026-11-05T16:06:05Z",
+      "url": "https://www.spreaker.com/episode/thursday-nov-5th--76193039"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-05T09:00:00Z",
+      "url": "https://player.autopod.xyz/1536370"
+    },
+    {
+      "feed": "open-line",
+      "title": "Wednesday Nov 4th",
+      "published": "2026-11-04T16:31:58Z",
+      "url": "https://www.spreaker.com/episode/wednesday-nov-4th--76177200"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-04T09:00:00Z",
+      "url": "https://player.autopod.xyz/1535034"
+    },
+    {
+      "feed": "open-line",
+      "title": "Tuesday Nov 3rd",
+      "published": "2026-11-03T16:24:30Z",
+      "url": "https://www.spreaker.com/episode/tuesday-nov-3rd--76157521"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-03T09:00:00Z",
+      "url": "https://player.autopod.xyz/1533714"
+    },
+    {
+      "feed": "open-line",
+      "title": "Monday Nov 2nd",
+      "published": "2026-11-02T17:11:11Z",
+      "url": "https://www.spreaker.com/episode/monday-nov-2nd--76139865"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-02T09:00:00Z",
+      "url": "https://player.autopod.xyz/1532372"
+    },
+    {
+      "feed": "open-line",
+      "title": "Friday Oct 30th",
+      "published": "2026-10-30T18:31:48Z",
+      "url": "https://www.spreaker.com/episode/friday-oct-30th--76090672"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-10-30T09:00:00Z",
+      "url": "https://player.autopod.xyz/1528150"
+    },
+    {
+      "feed": "open-line",
+      "title": "Thursday Oct 29th",
+      "published": "2026-10-29T16:43:07Z",
+      "url": "https://www.spreaker.com/episode/thursday-oct-29th--76073911"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-10-29T09:00:00Z",
+      "url": "https://player.autopod.xyz/1526810"
+    },
+    {
+      "feed": "open-line",
+      "title": "Wednesday Oct 28th",
+      "published": "2026-10-28T18:06:06Z",
+      "url": "https://www.spreaker.com/episode/wednesday-oct-28th--76054530"
+    }
+  ]
+}
