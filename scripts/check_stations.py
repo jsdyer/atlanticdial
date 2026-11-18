@@ -6,7 +6,9 @@ from http.client import HTTPException
 import json
 from pathlib import Path
 import re
+from time import sleep
 import unicodedata
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -55,11 +57,21 @@ def matches(text, slot):
 
 def download(url):
     request = Request(url, headers={'User-Agent': 'CoolCode Atlantic Dial schedule check/1.0'})
-    with urlopen(request, timeout=25) as response:
-        payload = response.read(4_000_001)
-        if len(payload) > 4_000_000:
-            raise ValueError('Page exceeded 4 MB')
-        return payload.decode(response.headers.get_content_charset() or 'utf-8', errors='replace')
+    for attempt, delay in enumerate((2, 5, 0), start=1):
+        try:
+            with urlopen(request, timeout=25) as response:
+                payload = response.read(4_000_001)
+                if len(payload) > 4_000_000:
+                    raise ValueError('Page exceeded 4 MB')
+                return payload.decode(response.headers.get_content_charset() or 'utf-8', errors='replace')
+        except HTTPError as exc:
+            # Station CDNs sometimes return a short-lived gateway error.
+            if attempt == 3 or not 500 <= exc.code < 600:
+                raise
+        except (URLError, TimeoutError, HTTPException):
+            if attempt == 3:
+                raise
+        sleep(delay)
 
 
 def check(data, fetch=download):
