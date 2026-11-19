@@ -1,3 +1,4 @@
+import {setupRecordings} from "./recordings.mjs";
 import {dateAt, dayAfter, week, onDate, ical, zoneAt} from "./schedule.mjs";
 
 const el = id => document.getElementById(id);
@@ -194,11 +195,10 @@ function selectView() {
     el("sources").open = true;
     return;
   }
-  const catchUp = hash === "#catch-up";
-  el("listings").hidden = catchUp;
-  el("catch-up").hidden = !catchUp;
+  const view = ["#catch-up", "#field-recordings"].includes(hash) ? hash : "#listings";
+  for (const id of ["listings", "catch-up", "field-recordings"]) el(id).hidden = "#" + id !== view;
   for (const anchor of document.querySelectorAll(".views a")) {
-    if (anchor.hash === (catchUp ? "#catch-up" : "#listings")) anchor.setAttribute("aria-current", "page");
+    if (anchor.hash === view) anchor.setAttribute("aria-current", "page");
     else anchor.removeAttribute("aria-current");
   }
 }
@@ -261,6 +261,7 @@ el("more-episodes").addEventListener("click", () => {
 });
 el("catch-up").hidden = true;
 selectView();
+setupRecordings();
 window.addEventListener("hashchange", selectView);
 loadEpisodes();
 

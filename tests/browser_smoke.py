@@ -2,6 +2,7 @@
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json
+import os
 from pathlib import Path
 import shutil
 import tempfile
@@ -63,17 +64,26 @@ def check_atlantic_dial(browser, url, screenshots):
     page.get_by_label("Programme", exact=True).select_option("chma-news")
     episode_file = json.loads((ROOT / "dist/episodes.json").read_text())
     count = sum(row["feed"] == "chma-news" for row in episode_file["episodes"])
-    assert page.locator(".episode").count() == min(8, count)
+    assert page.locator("#episode-list .episode").count() == min(8, count)
     if count > 8:
         page.get_by_role("button", name="Show more episodes").click()
-        assert page.locator(".episode").count() == min(20, count)
-    assert "CHMA" in page.locator(".episode .place").first.inner_text()
-    assert page.locator(".episode h3 a").first.get_attribute("href").startswith("https://")
+        assert page.locator("#episode-list .episode").count() == min(20, count)
+    assert "CHMA" in page.locator("#episode-list .episode .place").first.inner_text()
+    assert page.locator("#episode-list .episode h3 a").first.get_attribute("href").startswith("https://")
     page.screenshot(path=str(screenshots / "on-demand-mobile.png"))
     overflow = page.evaluate("""Array.from(document.querySelectorAll('body *'))
       .filter(el => el.getBoundingClientRect().right > innerWidth + 1)
       .map(el => [el.tagName, el.id, el.className, el.getBoundingClientRect().width])""")
     assert page.evaluate("document.documentElement.scrollWidth <= innerWidth"), overflow
+    page.get_by_role("link", name="Field recordings", exact=True).click()
+    page.get_by_label("Title, performer, place or reel").fill("William Riley")
+    page.get_by_role("link", name="Go Down Moses").wait_for()
+    assert page.locator("#recording-list article").count() >= 2
+    assert "&t=" in page.get_by_role("link", name="Go Down Moses").first.get_attribute("href")
+    page.get_by_label("Recording county").select_option("Hants County")
+    assert "No matching" in page.locator("#recording-summary").inner_text()
+    assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
+    page.get_by_role("link", name="On demand", exact=True).click()
     page.reload()
     assert page.locator("#catch-up").is_visible()
     assert not page.locator("#listings").is_visible()
@@ -99,7 +109,7 @@ def main():
         threading.Thread(target=server.serve_forever, daemon=True).start()
         try:
             with sync_playwright() as p:
-                browser = p.chromium.launch()
+                browser = p.chromium.launch(executable_path=os.environ.get("CHROMIUM_BIN"))
                 check_atlantic_dial(browser, f"http://127.0.0.1:{server.server_port}", screenshots)
                 browser.close()
             print("Broadcast guide, preserved favourites, calendar, archive search, feeds and mobile verified.")

@@ -3,7 +3,7 @@
 [Open Atlantic Dial](https://coolcode.ca/atlanticdial/) to find a radio show in Atlantic Canada, see when it airs where you live, or listen to a recent episode. The guide includes all four Atlantic provinces and both island Newfoundland and Labrador.
 
 <!-- coolcode:guide -->
-Search Nain for Labrador oral histories or Inuktitut lessons, then switch to On demand to find recent local radio and two archived programmes about Halifax donairs.
+Search Nain for Labrador broadcasts, or open Field recordings and search William Riley to hear him sing in Cherry Brook. Each recording opens at its original tape cue. On demand includes two programmes about Halifax donairs.
 <!-- /coolcode:guide -->
 
 ## Try the guide
@@ -11,6 +11,12 @@ Search Nain for Labrador oral histories or Inuktitut lessons, then switch to On 
 - In **Broadcast schedule**, enter a programme, station, topic or community. The search covers the next seven days and accepts unaccented spelling. Searching for **Cheticamp** finds Chéticamp. **Nain** finds broadcasts in Labrador, where the station clock is half an hour behind St. John’s.
 - Choose Vancouver or your device’s zone to plan a listen from away. Each listing also shows the time at the station. Save a favourite for return visits or download a particular airing to your calendar, including its player link. PEI’s Saturday Night Hoedown also links to the station’s request form.
 - In **[On demand](https://coolcode.ca/atlanticdial/#catch-up)**, search recent episode titles by subject, programme or community. Search **donair** to find the CBC history of the Halifax donair and a Backstage Kitchen interview with Corey Good. Both are dated archive selections. Each episode opens at the publisher or its chosen player.
+
+## Field recordings
+
+The [field recording index](https://coolcode.ca/atlanticdial/#field-recordings) covers the first twelve numbered audio reels (5028–5039) in Nova Scotia Archives’ Helen Creighton collection. Search a singer, island, harbour, title or reel number. Filter by the recording county to explore outside Halifax. The archive supplies the recording year, performer, location, reference numbers and start time. Source spellings are preserved in the results. Search accepts common variations of Eastern Passage and Musquodoboit Harbour. The linked player and collectors’ notes stay with [Nova Scotia Archives](https://archives.novascotia.ca/creighton/audioreels/).
+
+Run `python3 scripts/import_reels.py` to rebuild this historical selection from its twelve source indexes. Review the snapshot diff before publishing. The daily refresh covers contemporary episodes.
 
 ## Where the data comes from
 

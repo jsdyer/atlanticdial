@@ -17,7 +17,7 @@
     <div class="receiver" id="feature" aria-live="off"><p>Reading the station schedules…</p></div>
   </div></section>
   <div class="wrap main-body">
-    <nav class="views" aria-label="Browse the guide"><a href="#listings" aria-current="page">Broadcast schedule</a><a href="#catch-up">On demand</a></nav>
+    <nav class="views" aria-label="Browse the guide"><a href="#listings" aria-current="page">Broadcast schedule</a><a href="#catch-up">On demand</a><a href="#field-recordings">Field recordings</a></nav>
     <section id="listings" aria-labelledby="schedule-title">
     <div class="section-head"><h2 id="schedule-title">Programme guide</h2><p id="edition"></p></div>
     <div class="filters">
@@ -46,6 +46,18 @@
     <div id="episode-list"></div>
     <button id="more-episodes" type="button" class="quiet-button more" hidden>Show more episodes</button>
     <noscript><p>Open the publisher links below to browse the latest episodes.</p></noscript>
+  </section>
+  <section id="field-recordings" aria-labelledby="field-heading" hidden>
+    <div class="section-head"><h2 id="field-heading">Field recordings</h2><p id="reel-edition"></p></div>
+    <p class="section-intro">Hear the voices Helen Creighton recorded around Nova Scotia. Each title opens the original reel at the performer’s cue in the Nova Scotia Archives player.</p>
+    <div class="filters">
+      <div class="filter-control search-control"><label for="recording-search">Title, performer, place or reel</label><input type="search" id="recording-search" placeholder="Try William Riley or Devil’s Island"></div>
+      <div class="filter-control"><label for="recording-county">Recording county</label><select id="recording-county"><option value="">All counties</option></select></div>
+    </div>
+    <p id="recording-summary" class="list-summary" role="status">Loading archive index…</p>
+    <div id="recording-list"></div>
+    <button id="more-recordings" class="quiet-button more" type="button" hidden>Show more recordings</button>
+    <p><a href="https://archives.novascotia.ca/creighton/audioreels/">Browse the complete collection at Nova Scotia Archives ↗</a> · <a href="./recordings.json" download>Download this index</a></p>
   </section>
   <details id="sources" class="sources"><summary>Stations &amp; sources</summary>
     <p>The guide follows selected programmes on the stations’ usual weekly schedules. Special broadcasts can change the lineup. Each player belongs to its station.</p>
