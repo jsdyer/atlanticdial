@@ -1,7 +1,7 @@
 {
   "id": "atlanticdial",
   "title": "Atlantic Dial",
-  "description": "Find Atlantic Canadian radio shows on your clock and listen to recent episodes from local stations.",
+  "description": "Find Atlantic Canadian radio on your clock, catch recent episodes and listen to Nova Scotia field recordings.",
   "category": "media",
   "tags": [
     "radio",
@@ -19,7 +19,10 @@
     "Labrador",
     "Inuktitut",
     "podcasts",
-    "on demand"
+    "on demand",
+    "field recordings",
+    "folk songs",
+    "oral history"
   ],
   "icon": "radio-tower",
   "url": "/atlanticdial/",
@@ -28,7 +31,7 @@
   "access": "browser",
   "data_info": {
     "mode": "mixed",
-    "detail": "Stations publish the broadcast times and episode feeds. Choose your time zone or search recent recordings by title.",
+    "detail": "Stations publish schedules and episode feeds. Nova Scotia Archives supplies timed field recordings with performers, dates and places.",
     "cadence": "Daily episode imports and weekly schedule checks",
     "probes": [
       {
@@ -57,6 +60,20 @@
           ],
           "measure": "length",
           "unit": "episodes"
+        }
+      },
+      {
+        "label": "Field recordings indexed",
+        "url": "https://coolcode.ca/atlanticdial/recordings.json",
+        "path": [
+          "retrieved"
+        ],
+        "count_at": {
+          "path": [
+            "recordings"
+          ],
+          "measure": "length",
+          "unit": "recordings"
         }
       }
     ]
