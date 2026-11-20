@@ -1,5 +1,5 @@
 {
-  "retrieved": "2026-11-19",
+  "retrieved": "2026-11-20",
   "feeds": {
     "chma-news": {
       "title": "CHMA News",
@@ -24,6 +24,30 @@
     }
   },
   "episodes": [
+    {
+      "feed": "open-line",
+      "title": "Thursday Nov 19th",
+      "published": "2026-11-19T18:03:09Z",
+      "url": "https://www.spreaker.com/episode/thursday-nov-19th--76467912"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVEMBER 19: Childhood Video Games,. The Airport & Christmas Decor Arguments",
+      "published": "2026-11-19T14:28:23Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-19-childhood-video-games-the-airport-christmas-decor-arguments"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "Two Halifax Food Favourites Are Joining Forces & People Are SO Excited!",
+      "published": "2026-11-19T12:00:26Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/two-halifax-food-favourites-are-joining-forces-people-are-so-excited"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-19T09:00:00Z",
+      "url": "https://player.autopod.xyz/1554764"
+    },
     {
       "feed": "open-line",
       "title": "Wednesday Nov 18th",
@@ -175,12 +199,6 @@
       "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-10-what-makes-you-tired-cranky-rankin-reunion-problems-in-your-life-you-ignore"
     },
     {
-      "feed": "move-mornings",
-      "title": "The Rankins Back Together After 15 Years?!?! How You Can Win Tickets To See Them!",
-      "published": "2026-11-10T12:47:27Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/the-rankins-back-together-after-15-years-how-you-can-win-tickets-to-see-them"
-    },
-    {
       "feed": "chma-news",
       "title": "CHMA News",
       "published": "2026-11-10T09:00:00Z",
@@ -191,12 +209,6 @@
       "title": "Monday Nov 9th",
       "published": "2026-11-09T17:15:25Z",
       "url": "https://www.spreaker.com/episode/monday-nov-9th--76269982"
-    },
-    {
-      "feed": "move-mornings",
-      "title": "PODCAST NOVEMBER 9: Futuristic Tech, Sketchy Toys & Traffic In Halifax",
-      "published": "2026-11-09T13:51:38Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-9-futuristic-tech-sketchy-toys-traffic-in-halifax"
     },
     {
       "feed": "chma-news",
@@ -281,18 +293,6 @@
       "title": "Thursday Oct 29th",
       "published": "2026-10-29T16:43:07Z",
       "url": "https://www.spreaker.com/episode/thursday-oct-29th--76073911"
-    },
-    {
-      "feed": "chma-news",
-      "title": "CHMA News",
-      "published": "2026-10-29T09:00:00Z",
-      "url": "https://player.autopod.xyz/1526810"
-    },
-    {
-      "feed": "open-line",
-      "title": "Wednesday Oct 28th",
-      "published": "2026-10-28T18:06:06Z",
-      "url": "https://www.spreaker.com/episode/wednesday-oct-28th--76054530"
     }
   ]
 }
