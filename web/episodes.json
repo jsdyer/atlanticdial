@@ -1,5 +1,5 @@
 {
-  "retrieved": "2026-11-20",
+  "retrieved": "2026-11-21",
   "feeds": {
     "chma-news": {
       "title": "CHMA News",
@@ -24,6 +24,30 @@
     }
   },
   "episodes": [
+    {
+      "feed": "open-line",
+      "title": "Friday Nov 20th",
+      "published": "2026-11-20T18:42:55Z",
+      "url": "https://www.spreaker.com/episode/friday-nov-20th--76488020"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVEMBER 20: Your Private & Unique Body Disaster, Ailments & Why Erin Can't See?",
+      "published": "2026-11-20T12:59:59Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-20-your-private-unique-body-disaster-ailments-why-erin-cant-see"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "Did You Catch The Halifax Bands On The ‘GTA VI’ soundtrack?!",
+      "published": "2026-11-20T11:00:24Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/did-you-catch-the-halifax-bands-on-the-gta-vi-soundtrack"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-20T09:00:00Z",
+      "url": "https://player.autopod.xyz/1556063"
+    },
     {
       "feed": "open-line",
       "title": "Thursday Nov 19th",
@@ -175,12 +199,6 @@
       "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-11-peters-mystery-mail-you-can-see-everything-remembrance-day-in-halifax"
     },
     {
-      "feed": "move-mornings",
-      "title": "What's Open & Closed Today In HRM + The Sweetest Tribute By Local Seniors You'll Want To See",
-      "published": "2026-11-11T10:59:09Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/whats-open-closed-today-in-hrm-the-sweetest-tribute-by-local-seniors-youll-want-to-see"
-    },
-    {
       "feed": "chma-news",
       "title": "CHMA News",
       "published": "2026-11-11T09:00:00Z",
@@ -191,12 +209,6 @@
       "title": "Tuesday Nov 10th",
       "published": "2026-11-10T17:17:16Z",
       "url": "https://www.spreaker.com/episode/tuesday-nov-10th--76287820"
-    },
-    {
-      "feed": "move-mornings",
-      "title": "PODCAST NOVEMBER 10: What Makes You Tired & Cranky, Rankin Reunion & Problems In Your Life You Ignore",
-      "published": "2026-11-10T14:29:16Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-10-what-makes-you-tired-cranky-rankin-reunion-problems-in-your-life-you-ignore"
     },
     {
       "feed": "chma-news",
@@ -281,18 +293,6 @@
       "title": "Friday Oct 30th",
       "published": "2026-10-30T18:31:48Z",
       "url": "https://www.spreaker.com/episode/friday-oct-30th--76090672"
-    },
-    {
-      "feed": "chma-news",
-      "title": "CHMA News",
-      "published": "2026-10-30T09:00:00Z",
-      "url": "https://player.autopod.xyz/1528150"
-    },
-    {
-      "feed": "open-line",
-      "title": "Thursday Oct 29th",
-      "published": "2026-10-29T16:43:07Z",
-      "url": "https://www.spreaker.com/episode/thursday-oct-29th--76073911"
     }
   ]
 }
