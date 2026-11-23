@@ -1,7 +1,7 @@
 {
   "id": "atlanticdial",
   "title": "Atlantic Dial",
-  "description": "Find Atlantic Canadian radio on your clock, catch recent episodes and listen to Nova Scotia field recordings.",
+  "description": "Find Atlantic Canadian radio shows on your clock and listen to recent episodes from local stations.",
   "category": "media",
   "tags": [
     "radio",
@@ -31,7 +31,7 @@
   "access": "browser",
   "data_info": {
     "mode": "mixed",
-    "detail": "Stations publish schedules and episode feeds. Nova Scotia Archives supplies timed field recordings with performers, dates and places.",
+    "detail": "Stations publish the broadcast times and episode feeds. Choose your time zone or search recent recordings by title.",
     "cadence": "Daily episode imports and weekly schedule checks",
     "probes": [
       {
