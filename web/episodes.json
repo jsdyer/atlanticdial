@@ -1,5 +1,5 @@
 {
-  "retrieved": "2026-11-23",
+  "retrieved": "2026-11-24",
   "feeds": {
     "chma-news": {
       "title": "CHMA News",
@@ -24,6 +24,30 @@
     }
   },
   "episodes": [
+    {
+      "feed": "open-line",
+      "title": "Monday Nov 23rd",
+      "published": "2026-11-23T17:19:44Z",
+      "url": "https://www.spreaker.com/episode/monday-nov-23rd--76539821"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVEMBER 23: Tacky Holiday Decor, Eggnog & What Ruined Your Christmas Photo",
+      "published": "2026-11-23T13:46:36Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-23-tacky-holiday-decor-eggnog-what-ruined-your-christmas-photo"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "How 2 Halifax Women Went Viral In The Best Way After Meeting A Celebrity In Their Halifax Apartment Lobby",
+      "published": "2026-11-23T12:27:18Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/how-2-halifax-women-went-viral-in-the-best-way-after-meeting-a-celebrity-in-their-halifax-apartment-lobby"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-23T09:00:00Z",
+      "url": "https://player.autopod.xyz/1559848"
+    },
     {
       "feed": "open-line",
       "title": "Friday Nov 20th",
@@ -181,22 +205,10 @@
       "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-12-a-dobble-sleeping-with-socks-spending-too-much-on-trees"
     },
     {
-      "feed": "move-mornings",
-      "title": "THE WAIT IS OVER: Join Us To Officially Wake Up Woody The Talking Christmas Tree!",
-      "published": "2026-11-12T11:47:41Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/the-wait-is-over-join-us-to-officially-wake-up-woody-the-talking-christmas-tree"
-    },
-    {
       "feed": "chma-news",
       "title": "CHMA News",
       "published": "2026-11-12T09:00:00Z",
       "url": "https://player.autopod.xyz/1545620"
-    },
-    {
-      "feed": "move-mornings",
-      "title": "PODCAST NOVEMBER 11: Peter's Mystery Mail, You Can See Everything & Remembrance Day In Halifax",
-      "published": "2026-11-11T13:33:46Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-11-peters-mystery-mail-you-can-see-everything-remembrance-day-in-halifax"
     },
     {
       "feed": "chma-news",
@@ -281,18 +293,6 @@
       "title": "Monday Nov 2nd",
       "published": "2026-11-02T17:11:11Z",
       "url": "https://www.spreaker.com/episode/monday-nov-2nd--76139865"
-    },
-    {
-      "feed": "chma-news",
-      "title": "CHMA News",
-      "published": "2026-11-02T09:00:00Z",
-      "url": "https://player.autopod.xyz/1532372"
-    },
-    {
-      "feed": "open-line",
-      "title": "Friday Oct 30th",
-      "published": "2026-10-30T18:31:48Z",
-      "url": "https://www.spreaker.com/episode/friday-oct-30th--76090672"
     }
   ]
 }
