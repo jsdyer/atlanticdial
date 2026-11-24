@@ -26,6 +26,30 @@
   "episodes": [
     {
       "feed": "open-line",
+      "title": "Tuesday Nov 24th",
+      "published": "2026-11-24T17:39:06Z",
+      "url": "https://www.spreaker.com/episode/tuesday-nov-24th--76562715"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVEMBER 24: Home Alone, Chores You Would Pay People To Do & Zee Vs Zed",
+      "published": "2026-11-24T13:50:11Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-24-home-alone-chores-you-would-pay-people-to-do-zee-vs-zed"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "Great Outdoors Comedy Festival Update: Will You Get A Refund For Your 2027 Tickets?",
+      "published": "2026-11-24T12:11:20Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/great-outdoors-comedy-festival-update-will-you-get-a-refund-for-your-2027-tickets"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-24T09:00:00Z",
+      "url": "https://player.autopod.xyz/1561143"
+    },
+    {
+      "feed": "open-line",
       "title": "Monday Nov 23rd",
       "published": "2026-11-23T17:19:44Z",
       "url": "https://www.spreaker.com/episode/monday-nov-23rd--76539821"
@@ -181,12 +205,6 @@
       "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-13-peters-secret-snow-big-pickles"
     },
     {
-      "feed": "move-mornings",
-      "title": "Free Movies At Cineplex + Free Games At Playdium Tomorrow - Plus $3 Popcorn & Treats!",
-      "published": "2026-11-13T12:45:01Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/free-movies-at-cineplex-free-games-at-playdium-tomorrow-plus-3-popcorn-treats"
-    },
-    {
       "feed": "chma-news",
       "title": "CHMA News",
       "published": "2026-11-13T09:00:00Z",
@@ -197,12 +215,6 @@
       "title": "Thursday Nov 12th",
       "published": "2026-11-12T17:12:44Z",
       "url": "https://www.spreaker.com/episode/thursday-nov-12th--76319590"
-    },
-    {
-      "feed": "move-mornings",
-      "title": "PODCAST NOVEMBER 12: A Dobble, Sleeping With Socks & Spending Too Much On Trees",
-      "published": "2026-11-12T13:37:19Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-12-a-dobble-sleeping-with-socks-spending-too-much-on-trees"
     },
     {
       "feed": "chma-news",
@@ -281,18 +293,6 @@
       "title": "Tuesday Nov 3rd",
       "published": "2026-11-03T16:24:30Z",
       "url": "https://www.spreaker.com/episode/tuesday-nov-3rd--76157521"
-    },
-    {
-      "feed": "chma-news",
-      "title": "CHMA News",
-      "published": "2026-11-03T09:00:00Z",
-      "url": "https://player.autopod.xyz/1533714"
-    },
-    {
-      "feed": "open-line",
-      "title": "Monday Nov 2nd",
-      "published": "2026-11-02T17:11:11Z",
-      "url": "https://www.spreaker.com/episode/monday-nov-2nd--76139865"
     }
   ]
 }
