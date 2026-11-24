@@ -42,3 +42,5 @@ Public GitHub repositories can have scheduled workflows disabled after 60 days o
 
 This is an interim mitigation, not a scheduling guarantee: GitHub does not document active-workflow renewal as a permanent exemption, and scheduled runs can be delayed or dropped. A scheduler on our own Linux server is the planned independent trigger. The guard does not collect data, create dummy commits, or change source/check timestamps; successful collection and published data freshness still need monitoring.
 <!-- /schedule-reliability -->
+
+On November 24, 2026, CFCY’s Maritime Centre Stage page returned 404 and the programme was absent from its current On-Air index. Its previous listing is retained in `unconfirmedShows` in `web/schedule.json`, but is excluded from current airings until an official timetable can be verified. This records missing schedule evidence, not a claim that the programme was cancelled. The remaining station listings were rechecked.

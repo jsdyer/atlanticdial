@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-11-18",
+  "reviewed": "2026-11-24",
   "stations": {
     "seaside": {
       "name": "Seaside FM",
@@ -355,26 +355,6 @@
       ]
     },
     {
-      "id": "centre-stage",
-      "station": "cfcy",
-      "title": "Maritime Centre Stage",
-      "description": "East Coast musicians talk about their work and share their recordings from the Island.",
-      "slots": [
-        {
-          "days": [
-            0
-          ],
-          "start": "19:00",
-          "end": "20:00",
-          "sourceText": [
-            "an hour",
-            "every Sunday night at 7 pm"
-          ]
-        }
-      ],
-      "source": "https://cfcy.fm/on-air/maritime-centre-stage/"
-    },
-    {
       "id": "labrador-memories",
       "station": "ok",
       "title": "Labrador Memories",
@@ -590,6 +570,31 @@
           "daySection": "fr"
         }
       ]
+    }
+  ],
+  "unconfirmedShows": [
+    {
+      "id": "centre-stage",
+      "station": "cfcy",
+      "title": "Maritime Centre Stage",
+      "description": "East Coast musicians talk about their work and share their recordings from the Island.",
+      "slots": [
+        {
+          "days": [
+            0
+          ],
+          "start": "19:00",
+          "end": "20:00",
+          "sourceText": [
+            "an hour",
+            "every Sunday night at 7 pm"
+          ]
+        }
+      ],
+      "source": "https://cfcy.fm/on-air/maritime-centre-stage/",
+      "withdrawn_from_guide": "2026-11-24",
+      "reason": "CFCY removed the programme page and no longer lists the programme on its current On-Air index; no cancellation is inferred.",
+      "review_source": "https://cfcy.fm/on-air/"
     }
   ]
 }

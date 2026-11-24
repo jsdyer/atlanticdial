@@ -57,6 +57,13 @@ test("Nain programmes use Labrador time and retain the Newfoundland half hour fo
 });
 
 test("a calendar entry uses the individual programme's source when available", () => {
-  const row = week(data, nov21, "America/Halifax").find(a => a.show.id === "centre-stage");
+  const fixture = structuredClone(data);
+  fixture.shows[0].source = "https://example.org/programme-schedule";
+  const row = week(fixture, nov21, "America/Halifax").find(a => a.show.id === fixture.shows[0].id);
   assert.ok(ical(row, nov21).replaceAll("\r\n ", "").includes(row.show.source));
+});
+
+test("unconfirmed listings are retained as evidence but produce no current airings", () => {
+  assert.ok(data.unconfirmedShows.some(show => show.id === "centre-stage"));
+  assert.ok(!week(data, nov21, "America/Halifax").some(airing => airing.show.id === "centre-stage"));
 });
