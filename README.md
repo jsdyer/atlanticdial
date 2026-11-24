@@ -34,3 +34,11 @@ The broadcast schedule and [episode index](https://coolcode.ca/atlanticdial/epis
 - **Update the catalogue.** Revise the practical excerpt in this README when behaviour or coverage changes. Keep the one-sentence source summary in `tool.json` and the [CoolCode catalogue](https://github.com/jsdyer/jsdyer.github.io/blob/main/data/tools.json) accurate. The catalogue imports the guide excerpt, dates and counts independently.
 
 The guide calculates slots with IANA time zones. It preserves Newfoundland’s half hour and resolves repeated clock times to their first occurrence. It skips slots in a spring clock gap. Calendar files use UTC. Older browsers with outdated Vancouver winter rules receive the applicable UTC−7 offset after B.C.’s March 2026 change. [B.C. time policy](https://news.gov.bc.ca/releases/2026AG0013-000209)
+
+<!-- schedule-reliability -->
+## Schedule reliability
+
+Public GitHub repositories can have scheduled workflows disabled after 60 days of inactivity. A separate weekly [schedule guard](.github/workflows/schedule-guard.yml) calls GitHub's enable-workflow API for an explicit list of refresh workflows and itself. It can restore workflows disabled for inactivity, preserves manually disabled workflows, and runs independently of collection failures.
+
+This is an interim mitigation, not a scheduling guarantee: GitHub does not document active-workflow renewal as a permanent exemption, and scheduled runs can be delayed or dropped. A scheduler on our own Linux server is the planned independent trigger. The guard does not collect data, create dummy commits, or change source/check timestamps; successful collection and published data freshness still need monitoring.
+<!-- /schedule-reliability -->
