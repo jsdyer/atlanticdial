@@ -26,6 +26,36 @@
   "episodes": [
     {
       "feed": "open-line",
+      "title": "Wednesday Nov 25th",
+      "published": "2026-11-25T18:07:44Z",
+      "url": "https://www.spreaker.com/episode/wednesday-nov-25th--76591836"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVEMBER 25: Peter's Bachelor Life, Boy Dinner & Cheesy Christmas Movies",
+      "published": "2026-11-25T13:43:36Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-25-peters-bachelor-life-boy-dinner-cheesy-christmas-movies"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "DUNKIN RETURNS: The 1st Dunkin Donuts Has Been Confirmed For The Maritimes In 2027",
+      "published": "2026-11-25T12:55:37Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/dunkin-returns-the-1st-dunkin-donuts-has-been-confirmed-for-the-maritimes-in-2027"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "Costco Shoppers Are NOT Happy About This Change To Their Beloved Hot Dog",
+      "published": "2026-11-25T10:53:08Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/costco-shoppers-are-not-happy-about-this-change-to-their-beloved-hot-dog"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-25T09:00:00Z",
+      "url": "https://player.autopod.xyz/1562434"
+    },
+    {
+      "feed": "open-line",
       "title": "Tuesday Nov 24th",
       "published": "2026-11-24T17:39:06Z",
       "url": "https://www.spreaker.com/episode/tuesday-nov-24th--76562715"
@@ -175,18 +205,6 @@
       "url": "https://www.spreaker.com/episode/monday-nov-16th--76405605"
     },
     {
-      "feed": "move-mornings",
-      "title": "PODCAST NOVEMBER 16: Peter's Purchase Regret, Waiting In Line & More Mystery Mail",
-      "published": "2026-11-16T13:58:56Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-16-peters-purchase-regret-waiting-in-line-more-mystery-mail"
-    },
-    {
-      "feed": "move-mornings",
-      "title": "Major Bridgerton Star Spotted In Halifax?! Here's What We Know!",
-      "published": "2026-11-16T12:31:17Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/major-bridgerton-star-spotted-in-halifax-heres-what-we-know"
-    },
-    {
       "feed": "chma-news",
       "title": "CHMA News",
       "published": "2026-11-16T09:00:00Z",
@@ -197,12 +215,6 @@
       "title": "Friday Nov 13th",
       "published": "2026-11-13T16:28:08Z",
       "url": "https://www.spreaker.com/episode/friday-nov-13th--76340795"
-    },
-    {
-      "feed": "move-mornings",
-      "title": "PODCAST NOVEMBER 13: Peter's Secret, Snow & Big Pickles",
-      "published": "2026-11-13T14:50:11Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-13-peters-secret-snow-big-pickles"
     },
     {
       "feed": "chma-news",
@@ -281,18 +293,6 @@
       "title": "Wednesday Nov 4th",
       "published": "2026-11-04T16:31:58Z",
       "url": "https://www.spreaker.com/episode/wednesday-nov-4th--76177200"
-    },
-    {
-      "feed": "chma-news",
-      "title": "CHMA News",
-      "published": "2026-11-04T09:00:00Z",
-      "url": "https://player.autopod.xyz/1535034"
-    },
-    {
-      "feed": "open-line",
-      "title": "Tuesday Nov 3rd",
-      "published": "2026-11-03T16:24:30Z",
-      "url": "https://www.spreaker.com/episode/tuesday-nov-3rd--76157521"
     }
   ]
 }
