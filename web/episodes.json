@@ -26,6 +26,30 @@
   "episodes": [
     {
       "feed": "open-line",
+      "title": "Thursday Nov 26th",
+      "published": "2026-11-26T17:36:22Z",
+      "url": "https://www.spreaker.com/episode/thursday-nov-26th--76626776"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVEMBER 26: Places You've Never Been In The Maritimes, Gum Drop Cake & Erin's Hair",
+      "published": "2026-11-26T14:00:53Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-26-places-youve-never-been-in-the-maritimes-gum-drop-cake-erins-hair"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "Cape Breton Has A Surprising Connection To One Of Netflix & Crave's Hottest New Shows!",
+      "published": "2026-11-26T13:30:22Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/cape-breton-has-a-surprising-connection-to-one-of-netflix-craves-hottest-new-shows"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-26T09:00:00Z",
+      "url": "https://player.autopod.xyz/1563736"
+    },
+    {
+      "feed": "open-line",
       "title": "Wednesday Nov 25th",
       "published": "2026-11-25T18:07:44Z",
       "url": "https://www.spreaker.com/episode/wednesday-nov-25th--76591836"
@@ -181,18 +205,6 @@
       "url": "https://www.spreaker.com/episode/tuesday-nov-17th--76424088"
     },
     {
-      "feed": "move-mornings",
-      "title": "PODCAST NOVEMBER 17: Numb Thumbs, McPizza & Why Your Kids Are Driving You Crazy",
-      "published": "2026-11-17T14:17:02Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-november-17-numb-thumbs-mcpizza-why-your-kids-are-driving-you-crazy"
-    },
-    {
-      "feed": "move-mornings",
-      "title": "A Super Popular Mexican Restaurant Is Opening Their First Location In Halifax!",
-      "published": "2026-11-17T12:30:57Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/a-super-popular-mexican-restaurant-is-opening-their-1st-location-in-halifax"
-    },
-    {
       "feed": "chma-news",
       "title": "CHMA News",
       "published": "2026-11-17T09:00:00Z",
@@ -281,18 +293,6 @@
       "title": "Thursday Nov 5th",
       "published": "2026-11-05T16:06:05Z",
       "url": "https://www.spreaker.com/episode/thursday-nov-5th--76193039"
-    },
-    {
-      "feed": "chma-news",
-      "title": "CHMA News",
-      "published": "2026-11-05T09:00:00Z",
-      "url": "https://player.autopod.xyz/1536370"
-    },
-    {
-      "feed": "open-line",
-      "title": "Wednesday Nov 4th",
-      "published": "2026-11-04T16:31:58Z",
-      "url": "https://www.spreaker.com/episode/wednesday-nov-4th--76177200"
     }
   ]
 }
