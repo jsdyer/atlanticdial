@@ -26,6 +26,30 @@
   "episodes": [
     {
       "feed": "open-line",
+      "title": "Friday Nov 27th",
+      "published": "2026-11-27T17:12:52Z",
+      "url": "https://www.spreaker.com/episode/friday-nov-27th--76646683"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "PODCAST NOVEMBE 27: What You're Weirdly Attached To, Feelin' Like A Kid & THE FRIDAY SONG!",
+      "published": "2026-11-27T14:04:22Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-novembe-27-what-youre-weirdly-attached-to-feelin-like-a-kid-the-friday-song"
+    },
+    {
+      "feed": "move-mornings",
+      "title": "Robert De Niro, Ariana Grande & Ben Stiller Are All Talking About Nova Scotia?! Robert De Niro Just Blew Our Minds!",
+      "published": "2026-11-27T10:48:16Z",
+      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/robert-de-niro-ariana-grande-ben-stiller-are-all-talking-about-nova-scotia-robert-de-niro-just-blew-our-minds"
+    },
+    {
+      "feed": "chma-news",
+      "title": "CHMA News",
+      "published": "2026-11-27T09:00:00Z",
+      "url": "https://player.autopod.xyz/1565039"
+    },
+    {
+      "feed": "open-line",
       "title": "Thursday Nov 26th",
       "published": "2026-11-26T17:36:22Z",
       "url": "https://www.spreaker.com/episode/thursday-nov-26th--76626776"
@@ -181,18 +205,6 @@
       "url": "https://www.spreaker.com/episode/wednesday-nov-18th--76452508"
     },
     {
-      "feed": "move-mornings",
-      "title": "PODCAST NOVMEBER 18: Outrageous Bills, Tacos & Erin's Bad Morning",
-      "published": "2026-11-18T14:08:46Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/podcast-novmeber-18-outrageous-bills-tacos-erins-bad-morning"
-    },
-    {
-      "feed": "move-mornings",
-      "title": "Love Tacos? This Popular Taco Spot Is Expanding Into Atlantic Canada For The Very First Time!",
-      "published": "2026-11-18T12:24:09Z",
-      "url": "https://omny.fm/shows/move-mornings-with-erin-and-peter-sound-bites/love-tacos-this-popular-taco-spot-is-expanding-into-atlantic-canada-for-the-very-first-time"
-    },
-    {
       "feed": "chma-news",
       "title": "CHMA News",
       "published": "2026-11-18T09:00:00Z",
@@ -281,18 +293,6 @@
       "title": "Friday Nov 6th",
       "published": "2026-11-06T17:05:32Z",
       "url": "https://www.spreaker.com/episode/friday-nov-6th--76214717"
-    },
-    {
-      "feed": "chma-news",
-      "title": "CHMA News",
-      "published": "2026-11-06T09:00:00Z",
-      "url": "https://player.autopod.xyz/1537685"
-    },
-    {
-      "feed": "open-line",
-      "title": "Thursday Nov 5th",
-      "published": "2026-11-05T16:06:05Z",
-      "url": "https://www.spreaker.com/episode/thursday-nov-5th--76193039"
     }
   ]
 }
